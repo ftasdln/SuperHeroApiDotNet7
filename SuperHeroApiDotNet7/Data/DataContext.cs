@@ -15,7 +15,6 @@ namespace SuperHeroApiDotNet7.Data
         {
             base.OnConfiguring(optionsBuilder);
 
-//optionsBuilder.UseSqlServer();
         }
 
         public DbSet<SuperHero> superHeroes { get; set; }
